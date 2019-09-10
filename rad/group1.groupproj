@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{88198B02-8EF5-4E39-B448-E1BA251768DA}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="EasyBMP.cbproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="EasyBMP_test.cbproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="EasyBMP">
+        <MSBuild Projects="EasyBMP.cbproj"/>
+    </Target>
+    <Target Name="EasyBMP:Clean">
+        <MSBuild Projects="EasyBMP.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EasyBMP:Make">
+        <MSBuild Projects="EasyBMP.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="EasyBMP_test">
+        <MSBuild Projects="EasyBMP_test.cbproj"/>
+    </Target>
+    <Target Name="EasyBMP_test:Clean">
+        <MSBuild Projects="EasyBMP_test.cbproj" Targets="Clean"/>
+    </Target>
+    <Target Name="EasyBMP_test:Make">
+        <MSBuild Projects="EasyBMP_test.cbproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="EasyBMP;EasyBMP_test"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="EasyBMP:Clean;EasyBMP_test:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="EasyBMP:Make;EasyBMP_test:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

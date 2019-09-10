@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/09/09 22:22:54.994,=C:\Users\thiet\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>2019/09/09 22:22:55.018,=G:\_work\IDERA\RAD-projects\EasyBMP_1.06\sample\EasyBMPsample.cpp</Transaction>
+    <Transaction>2019/09/09 22:23:13.151,C:\Users\thiet\Documents\Embarcadero\Studio\Projects\EasyBMP_testPCH1.h=C:\Users\thiet\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>2019/09/09 22:23:13.154,C:\Users\thiet\Documents\Embarcadero\Studio\Projects\EasyBMP_test.cbproj=C:\Users\thiet\Documents\Embarcadero\Studio\Projects\Project3.cbproj</Transaction>
+    <Transaction>2019/09/09 22:24:52.104,=G:\_work\IDERA\RAD-projects\EasyBMP_1.06\EasyBMP.cpp</Transaction>
+    <Transaction>2019/09/09 22:25:22.275,G:\_work\IDERA\RAD-projects\EasyBMP_1.06\RAD\EasyBMP_testPCH1.h=C:\Users\thiet\Documents\Embarcadero\Studio\Projects\EasyBMP_testPCH1.h</Transaction>
+    <Transaction>2019/09/09 22:25:27.890,G:\_work\IDERA\RAD-projects\EasyBMP_1.06\RAD\EasyBMP_test.cbproj=C:\Users\thiet\Documents\Embarcadero\Studio\Projects\EasyBMP_test.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
